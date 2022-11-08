@@ -10,7 +10,7 @@ schema:
   description: |
     五笔字形 86 极点极爽版，方案由 KyleBing 修改 - 2019年11月08日 10:26
   dependencies:
-#    - pinyin_simp
+    - pinyin_simp
 
 switches:
   # - name: ascii_mode
@@ -61,9 +61,12 @@ translator:
   dictionary: wubi86_jidian             # 翻译器将调取此字典文件
   enable_charset_filter: true           # 开启字符集过滤
   enable_completion: true               # 是否显示编码未输入完整的词条
-  enable_sentence: false                # 句子输入模式
-  enable_user_dict: false               # 是否开启用户词典（用户词典记录动态字词频，用户词）
-  enable_encoder: false
+
+  # 开启自动造词，以下三个都改为 true
+  enable_sentence: true                 # 句子输入模式
+  enable_user_dict: true                # 是否开启用户词典（用户词典记录动态字词频，用户词）
+  enable_encoder: true
+
   encode_commit_history: false          # 是否对已上屏词自动成词（仅 table_translator 有效）
   preedit_format:                       # 上屏码自定义
     # - xform/.+//
@@ -110,6 +113,6 @@ key_binder:
 recognizer:
   import_preset: default
   patterns:
-#    punct: "^/([0-9]+[a-z]*|[a-z]+)$" # 注意前方需要有4个空格，跟下面对齐
+    # punct: "^/([0-9]+[a-z]*|[a-z]+)$" # 注意前方需要有4个空格，跟下面对齐
     reverse_lookup: "^z[a-z]*'?$" # 反查词条的正则
     calculator: "^coco.*$" # 计算器
