@@ -1,6 +1,6 @@
 patch:
   style:
-    color_scheme: roseo_maple               # 写当前名，也就是下面皮肤的 name 内容
+    color_scheme: weixin               # 写当前名，也就是下面皮肤的 name 内容
 
   #-----------------#
   #    颜色使用说明   #
@@ -17,6 +17,45 @@ patch:
   # 一般字体不需要指定，指定后的字体可能会出现候选框被拉伸成过高的情况，因为不同字体的纵向高度不同，默认字体适配最好
 
   preset_color_schemes:
+    weixin:
+      name: 微信样式
+      author: "WangXian <https://xiqiu.top>"
+      alpha: 1.0                                # 候选窗口透明度：符点型数据，小数点形式，不然出错无法正常显示皮肤
+      border_height: 5                          # 边距 - 面板上下
+      border_width: 5                           # 宽度 - 边框
+      border_color: 0xffffff                    # 颜色 - 边框
+      back_color: 0xF4F4F6                      # 颜色 - 面板背景
+      label_color: 0xaaaaaa                     # 颜色 - 候选序号
+      # font_face: PingFang SC Semibold         # 字体 - 候选文字
+      font_point: 16                            # 字体大小 - 候选
+      # label_font_face: Skia                   # 字体 - 候选数字
+      # label_font_point: 16                    # 字体大小 - 候选序号
+      corner_radius: 5                          # 候选框圆角大小
+
+      # %c 是候选序号 %@ 是候选词
+      candidate_format: "%c %@ "               # 候选词格式，后面多个空格是为了增加候选词之间的距离
+
+      horizontal: true                         # 是否横向 true 或 false
+      line_spacing: 5                          # horizontal 为 false 时，上下候选的间隔大小
+      base_offset: 0                           # 文字基线调整
+
+      preedit_back_color: 0x364572
+      hilited_corner_radius: 6                  # 圆角 - 首选候选词
+      hilited_candidate_text_color: 0xffffffff  # 颜色 - 首选候选词 - 文字
+      hilited_candidate_back_color: 0xff789c00  # 颜色 - 首选候选词 - 背景 原：0xEDEDF9 8位的前两位是颜色透明度，00就是透明，FF就是不透明
+      hilited_candidate_label_color: 0xffffffff # 颜色 - 首选候选词 - 序号
+      hilited_comment_text_color: 0xffffffff    # 颜色 - 首选候选词 - 提示编码
+      candidate_text_color: 0x222222            # 颜色 - 其它候选词 - 文字
+      comment_text_color: 0xff88c000            # 颜色 - 其它候选词 - 提示编码
+      comment_font_face: PingFang SC            # 字体 - 候选词编码的提示
+      comment_font_point: 16                    # 字体大小 - 候选词编码的提示
+
+      inline_preedit: true                      # 输入的编码是否直接写入到输入框中，如果为 false，未上屏的编码就会写在候选框中
+      spacing: 5                                # 当 inline_preedit 为 false 时，编码会出现在候选面板中，该值控制编码与候选词之间的距离
+      # inline_preedit 为 false 时
+      hilited_text_color: 0x8E8E93              # 颜色 - 输入中 - 编码
+      hilited_back_color: 0xEFEFF4              # 颜色 - 输入中 - 背景
+
     roseo_maple:
       name: 玫枫 / Roseo Maple
       author: "KyleBing <http://kylebing.cn>"
