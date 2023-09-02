@@ -1,10 +1,10 @@
-![rime_all](https://user-images.githubusercontent.com/12215982/144625408-61b43796-e120-4e12-9c70-ade0d91a77b3.png)
+![rime_all](https://github.com/KyleBing/rime-wubi86-jidian/assets/12215982/fdc029e5-7844-4819-a8f8-ac9b59367f23)
 
-该库是 [Rime](https://rime.im/) 输入法的一个 86版极点五笔的输入配置方案，支持多平台（Windows、macOS、Linux）
+该库是 [Rime](https://rime.im/) 输入法一个 86版极点五笔的输入配置方案，支持多平台（Windows、macOS、Linux、iOS）
 
 ## 一、概述
 
-Rime 是个输入法内核，在它的基础之上，又出现了涵盖 **Windows**、**macOS**、**Linux** 三个常用系统平台的输入法，对应的输入法名如上图。
+Rime 是个输入法内核，在它的基础之上，又出现了涵盖 **Windows**、**macOS**、**Linux** **iOS** 四个常用系统平台的输入法，对应的输入法名如上图。
 
 该输入法具有高度可定制化的特性，输入法通过读取不同的配置文件，来实现不同输入方式：**全拼**、**双拼**、**五笔**、**仓颉**，设置不同的输入习惯：**二三候选**、**回车清码**、**z键拼音反查**等等。
 
@@ -15,24 +15,17 @@ Rime 是个输入法内核，在它的基础之上，又出现了涵盖 **Window
 > - `h`-`目`
 > - `v`-`女` 
 
-由于三个平台使用的码表配置文件是一样的，所以能够在多个平台间保持同一种输入习惯，打起字来也会比较舒服。
+由于四个平台使用的码表配置文件是一样的，所以能够在多个平台间保持同一种输入习惯，打起字来也会比较舒服。
 
 该码表词条不是很多，很多专业性的词语可能会没有，需要自己添加，可以使用配套工具 [**五笔词条工具**](https://github.com/KyleBing/wubi-dict-editor) 来完成词条的添加。
-> 另外也可以通过这个工具分享你的常用词条，我的想法是维护一个咱们五笔用户自己的词库，最终实现非常舒服的码字的目标。
-
-> ![2022-12-29 09 09 39](https://user-images.githubusercontent.com/12215982/209891815-057ce25b-cad5-4994-9495-9f2a0768733d.png)
-
 
 
 ## 二、不同平台的输入法外观
 
-
-__macOS__
-
+**macOS**  
 <img width="330" alt="Screen Shot 2020-12-09 at 12 15 57" src="https://user-images.githubusercontent.com/12215982/149726120-1a066937-551c-4a43-b2e8-b081f6366c9d.png">
 
-__Windows__
-
+**Windows**  
 皮肤可以通过修改 `weasel.custom.yaml` 文件内的 color_scheme 实现修改，对应正文的颜色方案
 
 ```yaml
@@ -41,13 +34,20 @@ patch:
     color_scheme: WhiteAqua  # 匹配正文的颜色方案，对应正文的颜色方案名
 ```
 
-<img width="500" src="https://user-images.githubusercontent.com/12215982/139873356-1a0c91a9-7343-4dd8-910b-c8f2f7003365.png">
+<img width="500" src="https://github.com/KyleBing/rime-wubi86-jidian/assets/12215982/d3ab63d8-6d93-47f5-a599-5f4d9334dfab"/>
 
-__Ubuntu__
-
+**Ubuntu**  
 <img width="250" alt="skin-ubuntu" src="https://user-images.githubusercontent.com/12215982/131607073-0b3dfe0e-bfc8-4be0-91c7-b304702acdda.png">
 
+**iOS**  
+**仓输入法**： 最近才发现一个非常好的 iOS 端的 Rime 内核输入法，可以使用当前库的配置文件，输入习惯跟电脑上一模一样，简直不要太爽。直接 AppStore 搜索下载即可。  
+但痛点还是一样，无法很方便的添加词汇。
 
+
+github 开源地址： [https://github.com/imfuxiao/Hamster](https://github.com/imfuxiao/Hamster)
+
+**Android**   
+因为平时不用 Android 设备，不太了解，如果有好的可以推荐下
 
 ## 三、文件说明
 
@@ -65,14 +65,15 @@ __Ubuntu__
 ├── pinyin_simp.dict.yaml                   # 词库 - 简体拼音码表 - 五笔中拼音输入需要的
 ├── pinyin_simp.schema.yaml                 # 方案 - 简体拼音
 
-├── wubi86_jidian_pinyin.schema.yaml        # 方案 - 五笔拼音混输
+├── wubi86_jidian.ico                       # 输入法任务栏图标 for Windows
 ├── wubi86_jidian.schema.yaml               # 方案 - 极点五笔
 ├── wubi86_jidian.dict.yaml                 # 词库 - 极点五笔主码表
+├── wubi86_jidian_user.dict.yaml            # 词库 - 用户私人词库
+├── wubi86_jidian_extra.dict.yaml           # 词库 - 扩展词库 - 实时更新的线上词库（需要使用 [五笔词条工具](https://github.com/KyleBing/wubi-dict-editor) ）
+└── wubi86_jidian_extra_district.dict.yaml  # 词库 - 扩展词库 - 行政区域名称： 省市县区
+├── wubi86_jidian_pinyin.schema.yaml        # 方案 - 五笔拼音混输
 ├── wubi86_jidian_trad.schema.yaml          # 方案 - 五笔简入繁出
 ├── wubi86_jidian_trad_pinyin.schema.yaml   # 方案 - 五笔拼音混输 简入繁出
-├── wubi86_jidian_user.dict.yaml            # 词库 - 用户私人词库
-├── wubi86_jidian_extra.dict.yaml           # 词库 - 扩展词库
-└── wubi86_jidian_extra_district.dict.yaml  # 词库 - 扩展词库 - 行政区域名称： 省市县区
 
 ```
 
@@ -118,10 +119,18 @@ Windows 中的配置方法：
 sudo apt-get install ibus-rime
 ```
 
-ubuntu 的配置文件目录在 
+ubuntu 的配置文件目录在
 ```bash
 ~/.config/ibus/rime/
 ```
+
+### 4. 仓输入法 (iOS)
+
+1. AppStore 下载 仓输入法
+2. 打开仓输入法设置，选择【输入方案上传】，同一局域网内打开电脑将电脑上的 Rime 配置文件上传到 打开窗口中的 Rime 文件夹下
+3. 输入法上选择重新部署即可
+
+
 
 ## 五、扩展词库
 
@@ -136,7 +145,20 @@ ubuntu 的配置文件目录在
 
 比如想停用 `行政区域` 这个词库，直接在其前面添加  `#` 或者直接删除该行，执行输入法的 `部署` 或 `Deploy` 操作后即可生效。
 
-**行政区域**
+### 1. 线上共享的扩展词库
+
+以基础码表为基础，所有后加的词都放置在了 `wubi86_jidian_extra` 这个扩展词库中，可以通过工具来实现实时更新线上最新的词库内容。
+
+这个词库是我维护的，你也可以将一些常用的词上传到线上。
+
+我的想法是维护一个咱们五笔用户自己的词库，最终实现非常舒服的码字的目标。
+
+![工具上传词条](https://user-images.githubusercontent.com/12215982/216496512-8f54658a-71cd-4de2-8e16-dbb86baf6df4.png)
+
+> ![2022-12-29 09 09 39](https://user-images.githubusercontent.com/12215982/209891815-057ce25b-cad5-4994-9495-9f2a0768733d.png)
+
+
+### 2. 行政区域
 `行政区域` 这个词库有 3000 多个词条，可能会导致重码变多，可以根据自己需要删减其内容，文件中已经根据省份划分地域名了。
 
 ```yaml
@@ -210,7 +232,7 @@ ubuntu 的配置文件目录在
 <img width="300" src="https://user-images.githubusercontent.com/12215982/134291024-7df6073c-ec5a-420c-bcd1-2e63ea33d04b.jpg"/>
 
 
-## 七、常见自定义功能
+## 七、个性配置
 所有配置说明都在配置文件中说明了，如果有其它问题可以在 `issue` 中提出，或者在群里（[QQ群：878750538](https://jq.qq.com/?_wv=1027&k=st8cY2sI)） 讨论，有需要就 `@十月`，一定要 `@` 哟，不然我看不到的
 
 ### 1. 候选个数
@@ -221,9 +243,9 @@ ubuntu 的配置文件目录在
 ```
 
 ### 2. 回车清码
-默认是开启的
+默认是关闭的
 
-想要关闭，打开 `default.custom.yaml` 文件，找到下面这行，在前面添加 `#` 即可，如下
+想要开启，打开 `default.custom.yaml` 文件，找到下面这行，去掉前面的 `#` 即可，如下
 
 ```yaml
       # 回车清码
@@ -290,8 +312,51 @@ translator:
 #    - lua_filter@single_char_only # 纯单字
 ```
 
+### 9. 隐藏候选窗口（Windows）
+有些追求极致的用户不喜欢有候选框的显示，平时打字也用不到候选窗口，候选窗口也是可以隐藏的。（Windows）
+编辑 `weasel.custom.yaml` 文件，定位到 `style.layout`，编辑 `margin_x` `margin_y` 将值设置成负值即可。
 
-## 八、其它相关链接
+```yaml
+      margin_x: -1               # int 内容离边框的，左右边界  当 margin_x 和 margin_y 设置为负值时，将不显示候选窗口，但不影响方案选择
+      margin_y: -1               # int 内容离边框的，上下边界  当 margin_x 和 margin_y 设置为负值时，将不显示候选窗口，但不影响方案选择
+```
+
+这样打起字来有点当年用黑莓 auto_text 打五笔的感觉了。
+
+<img src="https://github.com/KyleBing/rime-wubi86-jidian/assets/12215982/d440c7f0-8cde-49f6-b778-a3fc4aefe9da" width="500">
+
+### 10. 定义输入方案的图标（Windows）
+Windows 小狼毫 v0.15.0 版已经支持自定义某个方案的图标了，比如这个五笔方案就已经设置了自定义的图标。任务栏的图标不再是原来的 “中” 字，而是：
+
+<img src="https://github.com/KyleBing/rime-wubi86-jidian/assets/12215982/7377bde6-a36d-40ac-b0ad-0674d22a68a3" width="600">
+
+当按 <kbd>shift</kbd> 切换中英文输入的时候，就会显示这个图标。
+
+<img src="https://github.com/KyleBing/rime-wubi86-jidian/assets/12215982/88ff51b5-6098-4464-a70f-6feb9e09de4e" width="500">
+
+
+编辑某个你需要自定义图标的方案文件，比如我这个 `wubi86_jidian.schema.yaml`，编辑 `schema` 下的这两个位置，不过只使用第一个位置即可。
+
+```yaml
+  icon: "wubi86_jidian.ico"           # string 方案图标，格式： .ico
+  ascii_icon:                         # string
+```
+
+需要你自己准备一个 `.ico` 图标文件，然后放到 Rime 配置文件的根目录下，再将文件名填到上面的位置，重新部署即可。
+
+
+## 八、词条权重
+该库的候选词排序方式是依据权重排序，权重是一个数量，数字越大权重越大，权重大的词靠前。为了让子码表也能在候选词中任意调整位置，主码表中的所有词都添加了权重，10为间隔。
+
+没有权重时，子码表无法自由定义在候选词中的位置
+
+<img width="800" alt="没有权重时" src="https://github.com/KyleBing/rime-wubi86-jidian/assets/12215982/6e27527a-dfc0-45f5-8bde-6ad15f1c1c89">
+
+有了初始的权重后就可以定义任意位置了
+
+<img width="800" alt="有权重后" src="https://github.com/KyleBing/rime-wubi86-jidian/assets/12215982/b80de286-66b9-4db7-8cfb-87f82b472b7a">
+
+## 九、其它相关链接
 
 __工具链接__
 - [x] 五笔码表助手： [https://github.com/KyleBing/wubi-dict-editor](https://github.com/KyleBing/wubi-dict-editor)
@@ -306,6 +371,7 @@ __配置教程链接__
 - [x] Rime 官网：   [https://rime.im/](https://rime.im/)
 - [x] 中英切换自定义：[https://gist.github.com/lotem/2981316](https://gist.github.com/lotem/2981316)
 - [x] 簡繁配置說明關於 OpenCC ：[https://github.com/rime/home/issues/420](https://github.com/rime/home/issues/420)
+- [x] 小狼毫 v0.15.0 更新说明 [https://github.com/rime/weasel/blob/master/CHANGELOG.md#0150-2023-06-06](https://github.com/rime/weasel/blob/master/CHANGELOG.md#0150-2023-06-06)
 
 __本库 Wiki__
 - [x] [.schema.yaml 详解](https://github.com/KyleBing/rime-wubi86-jidian/wiki/Schema.yaml-%E8%AF%A6%E8%A7%A3)
