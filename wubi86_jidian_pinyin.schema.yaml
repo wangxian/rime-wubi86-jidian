@@ -41,7 +41,8 @@ engine:
     - reverse_lookup_translator
     - table_translator
     - lua_translator@date_translator # 自定义系统变量输出
-    - lua_translator@calculator      # 计算器：二元运算，coco 开头，如 coco56*34 coco24/1024
+    # 五笔拼音混输的情况下，计算器有冲突
+    # - lua_translator@calculator    # 计算器：二元运算，coco 开头，如 coco56*34 coco24/1024
 
 # 自动造词功能：参阅： https://github.com/KyleBing/rime-wubi86-jidian#7-%E5%BC%80%E5%90%AF%E8%87%AA%E5%8A%A8%E9%80%A0%E8%AF%8D
 
