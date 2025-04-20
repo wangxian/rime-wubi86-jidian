@@ -106,6 +106,12 @@ CarPlay	carp
 副驾驶	glck
 主驾驶	ylck
 安全带	pwgk	30
+凯美瑞	mugm
+日系	jjtx	20
+德系	tftx	20
+兰博基尼	ufan	20
+自吸	thke	20
+涡轮增压	ilfd	20
 
 ## 摩托车
 单盘	ujte
@@ -221,6 +227,7 @@ Ninja650	ninj
 金蝉	qqju
 云缨	fcxm
 艾琳	aqgs
+空空儿	ppqt
 
 ## 影视
 黑镜	lfqu
@@ -272,6 +279,14 @@ Ninja650	ninj
 海王	itgg	30
 功夫熊猫	afcq
 沈墨	iplf
+死神来了	gpgb
+死侍	gqwf	30
+五月槐花香	gest
+变相怪杰	ysns
+加勒比海盗	laxu
+漫长的季节	itra
+鱿鱼游戏	qqic
+天龙特攻队	gdtb
 
 ## 歌手
 谢春花	ydaw
@@ -306,6 +321,11 @@ Ninja650	ninj
 韩红	fjxa
 郭顶	ybsd
 麻园诗人	ylyw	20
+五月天	gegd
+毛不易	tgjq	30
+刘烨溦	yoim
+凤凰传奇	mmwd
+张杰	xtso	20
 
 ## 演员
 周韵	mfuj
@@ -329,6 +349,9 @@ Ninja650	ninj
 秦岚	dwmm	5
 于和伟	gtwf
 王子文	gbyy
+任素汐	wgiq
+范伟	aiwf
+倪妮	wvvn	20
 
 ## 歌曲
 寄居蟹	pnqe
@@ -342,6 +365,7 @@ Ninja650	ninj
 千千阙歌	ttus
 依然范特西	wqas	20
 范特西	atsg	20
+祝融	pygk
 
 ## 通用短语
 一两个月	ggwe
@@ -382,7 +406,7 @@ U盘	utel	20
 逢集	tdwy
 煎包	ueqn
 守岁	pfmq
-烤串	ofkk
+烤串	ofkk	30
 笑死	ttgq
 医保卡	awhh
 社保卡	pwhh
@@ -419,7 +443,7 @@ U盘	utel	20
 短链	tdql
 透明度	tjya
 充电线	yjxg
-也就是	byjg
+也就是	byjg	20
 虚化	hawx
 亡命天涯	ywgi
 武士刀	gfvn
@@ -463,7 +487,7 @@ U盘	utel	20
 双节棍	casj
 <kbd></kbd>	kbd
 狗拎刀	qrvn
-L/100km	imdi
+L/百公里	imdi
 拉胯	rued	100
 L/100km	dwjf
 莱芜	agaf
@@ -610,7 +634,7 @@ iPadOS	ipad	19
 挨个	rcwh	20
 两圈	gmlu	20
 物业费	toxj	20
-AirDrop	air	20
+AirDrop	aird	20
 嫌累	vulx	20
 回滚	lkiu	30
 弧角	xrqe
@@ -756,7 +780,6 @@ PhotoShop	ps
 千牛	tfrh
 回购	lkmq	20
 炸毛	ottf	20
-IP	ip	9
 内网	mwmq	20
 自由落体	tmaw
 钻头	qhud	20
@@ -1144,7 +1167,6 @@ HDMI	hdmi
 摆件	rlwr
 除冰	bwui
 新生儿	utqt	10
-Mega	mega
 夏雨荷	dfaw
 Swift	swif
 SwiftUI	swif
@@ -1206,6 +1228,270 @@ CAD	cad
 总览	ukjt
 BRZ	brz
 老毛桃	ftsi
+未读	fiyf	20
+已读	nnyf	20
+折返	rrrc	20
+搞不懂	rgna
+老是	ftjg
+白叫	rrkn	20
+十月怀胎	fene	20
+肘子	efbb	20
+电饼铛	jqqi
+倒放	wgyt
+补帧	pumh
+回看	lkrh	20
+街巷	tfaw	20
+刷碗	nmdp
+大图	ddlt	20
+掉渣饼	riqn	15
+雅黑	ahlf
+续期	xfad
+豆浆机	gusm
+开胶	gaeu	20
+天梯图	gslt
+人保	wwwk
+闪屏	uwnu
+阅读器	uykk
+轨迹球	lygf	30
+菌群	alvt	30
+标配	sfsg
+线稿	xgty
+线框	xgsa
+高数	ymov
+常伴	ipwu
+色彩平衡	qegt
+色阶	qcbw
+恩雅	ldah
+班得瑞	gtgm
+电蚊拍	jjrr
+剁手	msrt
+入坑	tyfy
+入局	tynn
+PDF	pdf
+闪迪	uwmp
+走走	fhfh	20
+把子肉	rbmw	20
+开箱	gats
+童话镇	uyqf
+不得不说	gtgy	20
+登月	wgee	20
+Adobe	adob	20
+瀑布流	idiy	30
+小姑父	ivwq
+脑梗	eysg
+取票	bcsf	20
+再议	gmyy	20
+肩带	yngk	20
+环形山	ggmm	20
+数字尾巴	opnc
+墨刀	lfvn
+个例	whwg	20
+歌单	skuj	20
+光华大道	iwdu
+表情包	gnqn
+免签	qktw
+院区	bpaq
+凸起	hgfh	30
+灯珠	osgr
+安防	pvby
+无边记	flyn	20
+选择困难症	trlu	20
+借还	wagi	20
+已出	nnbm
+驴唇不对马嘴	cdgk	20
+洗面奶	idve
+黑不溜秋	lgit	20
+平衡车	gtlg	20
+盲道	ynut
+折纸	rrxq
+氢气	rnrn	25
+干锅	fgqk
+万险	dnbw
+千险	tfbw
+划动	ajfc	20
+续租	xfte
+蹊跷	khkh	25
+永无	ynfq	5
+伤情	wtng	20
+金刚狼	qmqt	20
+迭代	rwwa	20
+中国人	klww
+赢了	ynbn	5
+圆心	lkny	20
+追兵	wnrg	5
+两截	gmfa
+测点	imhk
+CCTV	cctv
+过过瘾	ffub
+辅助线	lexg
+速干	gkfg	20
+°	qeya
+参考线	cfxg	20
+蛋仔	nhwb
+团圆饭	llqn
+减速慢行	ugnt
+指套	rxdd
+甘蓝菜	aaae
+刺鼻	gmth	20
+汗液	ifiy	45
+出息	bmth	15
+抱死	rqgq	20
+MiyooA30	miyo
+缓动	xefc	15
+幸福感	fpdg
+大美女	duvv
+死要面子活爱罪	gsdl
+残影	gqjy
+期朌	adew
+侧脸	wmew
+偏食	wywy	55
+遮光罩	yilh
+奇了怪了	dbnb
+站酷	uhsg
+虫洞	jhim
+久病成医	quda	30
+度蜜月	ypee
+任一	wtgg	20
+转继	lfxo
+山东省济南市历城区华山安置二区E区1号楼1单元1003 邴新科 15628785530	nwff
+察颜观色	pucq
+不明觉厉	gjid
+占有欲	hdww
+事已至此	gngh
+糟心	ogny
+许愿池	ydib
+包租婆	qtih	15
+奇痒无比	dufx
+波特率	ityx
+磨砂	ysdi	20
+彩蛋	esnh	20
+AI	ai
+家暴	peja
+学到	ipgc	20
+瞧瞧	hwhw	20
+噢哟	ktkx
+哦哟	ktkx
+奖池	uqib
+灵动岛	vfqy	20
+遥墙	erff	20
+遥墙机场	efsf	20
+匝道	amut	20
+爸妈	wqvc	20
+武大郎	gdyv	20
+人贬子	wmbb
+先天性	tgnt
+一眼万年	ghdr
+社恐	pyam
+工位	aawu
+佛头	wxud
+白噪音	rkuj
+有图有真相	dlds
+狗头	qtud	25
+换程	rqtk
+口嗨	kkki	20
+抠搜	rarv	20
+高光	ymiq	20
+沙棘	iigm	20
+大一	ddgg	30
+大二	ddfg	15
+大三	dddg	30
+咪咪	koko	20
+优衣酷	wysg	20
+学前班	iugy	20
+好长	vbta	20
+龙葵	dxaw
+一串	ggkk	20
+弟弟妹妹	uuvv	20
+仙人掌	wwip	30
+离家出走	ypbf
+远房	fqyn	15
+溏沽	iyid	5
+足金	khqq	20
+下播	ghrt	5
+备机	tlsm
+涂装	iwuf
+谢尔比	yqxx
+金价	qqww
+悄悄话	nnyt
+领养	wyud	25
+福利院	ptbp	25
+指手画脚	rrge	25
+一文不值	gygw	25
+房贷	ynwa	25
+里屋	jfng
+解闷	qeun	5
+抠鼻	rath	20
+呲牙	khah	50
+优衣库	wyyl	5
+下垂	ghtg	5
+改签	nttw	20
+房费	ynxj	20
+行李箱	tsts	20
+鼻毛	thtf	5
+脖套	efdd	20
+酱香饼	utqn
+桔黄	sfam	20
+领口	wykk	5
+哪张	kvxt
+爱爱	epep
+壁咚	nkkt
+有意思	duln
+叹号	kckg	20
+顺滑	kdim	20
+锈迹斑斑	qygg	20
+锈迹	qtyo	15
+组态	xedy
+坐地起价	wffw	20
+发饰	vqn
+自重力	ttlt	20
+贱兮兮	mwwg	15
+声光报警	fira	15
+导电胶	njeu
+端茶送水	uaui
+氧传感器	rwdk
+打金店	rqyh
+打金	rsqq
+金玉满堂	qgii	20
+银价	qvww	20
+噪点	kkhk	20
+铂金	qrqq	20
+钯金	qcqq	20
+宾利	prtj	20
+睡觉觉	hiip	20
+撒狗粮	rqoy	20
+耐造	dmtf	20
+乖乖	tftf	45
+拼多多	rqqq
+等不及	tgey	20
+临额	jtpt
+老不死	fggq	15
+捂嘴	rgkh	15
+山航	mmte
+刮刮乐	ttqi	20
+停车费	wlxj
+征信	tgwy
+与此同时	ghmj	15
+限免	bvqk
+扭扭捏捏	rrrr	12
+辣条	ugts
+霸凌	fauf
+校园霸凌	slfu
+空滤	pwih
+豆包	gkqn	20
+头孢	udbq
+散点图	ahlt
+散点	aehk	20
+发信息	nwth
+大观园	dclf	20
+几家	mtpe	20
+圣诞老人	cyfw	20
+蹲起	khfh	25
+攒钱	rtqg
+播放列表	rygg	30
+套壳	ddfp	20
+代付	wawf
+亲情卡	unhh	20
+荆轲刺秦	algd
 
 ## 软件名
 懂车帝	nlup
@@ -1218,7 +1504,8 @@ BRZ	brz
 标题日记	sjjy
 JetBrains	jetb	10
 PyCharm	pych	10
-Github	gith	100
+滴嗒	iuka
+WebStorm	webs
 
 ## 品牌
 美特斯邦威	utad
@@ -1274,6 +1561,13 @@ Apex	apex
 Ulanzi	ulan
 钱江	qgia	20
 卡赫	hhfo
+赛腾	pfeu	20
+云腾	fceu
+斯莫格	aast
+玛赤佩	gfwm	20
+斯缇诗	axyf	20
+喵喵机	kksm
+无印良品	fqyk	10
 
 ## 区域
 莒县	akeg
@@ -1298,6 +1592,14 @@ Ulanzi	ulan
 环联夜市	gbyy
 果庄乡	jyxt
 下屯村	ggsf
+大坪坝	dffm	20
+沙坪坝	iffm	20
+鸿恩寺	ilff	20
+渝北	iwux	20
+唐冶	yvuc
+洪崖洞	imim	20
+福来士	pgfg	20
+博山	fgmm	20
 
 ## 医学
 直肠癌	feuk
@@ -1317,6 +1619,11 @@ Ulanzi	ulan
 肛周炎	emoo
 肛瘘	eauo	20
 幽门螺旋杆菌	xuja
+静脉曲张	gemx
+曲张	maxt
+渐冻症	iuug	20
+优甲乐	wlqi
+左甲状腺素钠片	dlut	200
 
 ## emoji动物
 🐶	qtqk		狗
@@ -1598,6 +1905,19 @@ N号房	nkyn
 球球大作战	ggdh
 库乐队	yqbw
 小小梦魇	iisd
+俄罗斯方块	wlaf
+双截龙	cfdx
+忍者神龟	vfpq
+兵蜂	rgjt	20
+沙罗曼蛇	iljj	20
+MiyooMini+	miyo
+Miyoo	miyo
+绝地求生	xfft	5
+红警	xaaq	20
+幻景	xnjy	5
+Trimui Smart Pro	trim
+Trimui Bricks	trim
+TrimUI	trim	20
 
 ## 三四叠字
 众	cccc
@@ -1665,6 +1985,8 @@ NPM	npm	2
 uniapp	unia
 AM	am
 Kotlin	kot
+ElementUI	elem
+码流	dciy
 
 ## 物联网
 通断	ceon
@@ -1686,9 +2008,7 @@ Kotlin	kot
 微模块	tsfn	100
 逆变器	uykk
 智图	tdlt
-
-## 小吃
-蒸饺	abqn
+暖通	jece
 
 ## 口语
 姐们	vewu	100
@@ -1699,7 +2019,7 @@ Kotlin	kot
 
 ## 特殊字符
 ✓	qctf		勾选
-✓	cfkg
+✓	cfkg		对号
 ²	guyy
 ³	uuyy
 Ω	aqvx
@@ -1731,3 +2051,48 @@ Kotlin	kot
 周星驰	mjcb
 刘亦菲	yyad
 王朔	ggub
+马思纯	clxg
+哈里斯	kjad
+
+## 摄影
+定焦	pgwy
+全画幅	wgmh	14
+半画幅	ugmh	20
+视景窗	pjpw
+套机	ddsm
+哈苏	kwal
+自提	thrj	20
+远焦	fqwg	20
+冷靴	uwaf
+热靴	rvaf	15
+快拆	nnrr	20
+柔光罩	cilh
+三脚架	delk	20
+柔光箱	cits	20
+长焦	tawy
+
+## 运动员
+樊振东	srai
+马龙	cndx
+张继科	xxtu	5
+王楚钦	gsqq	5
+陈梦	bass	5
+孙颖莎	bxai	5
+许昕	ytjr	5
+丁宁	sgps	5
+朱雨玲	rfgw	5
+张怡宁	xnps	5
+刘国梁	yliv	5
+孔令辉	bwiq	5
+邓亚萍	cgai	5
+全红婵	wxvu
+二手房	fryn
+
+## 食品
+蒸饺	abqn
+米村拌饭	osrq
+拌饭	ruqn	20
+犟骨头	xmud	20
+苦菊	adaq	20
+沙拉酱	iruq	20
+风味茄子	mkab

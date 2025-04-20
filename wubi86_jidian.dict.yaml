@@ -1902,8 +1902,8 @@ AirPower	airp	10
 葃	ajtf	10
 萌生	ajtg	20
 虄	ajtg	10
-蔓延	ajth	20
-划算	ajth	10
+划算	ajth	20
+蔓延	ajth	10
 草种	ajtk	10
 蓝	ajtl	10
 莫向	ajtm	10
@@ -2652,6 +2652,7 @@ AirPower	airp	10
 蒙受	apep	10
 蒙脸	apew	10
 营地	apfb	10
+蔻	apfc	5
 劳动	apfc	10
 蓉城	apfd	10
 茔	apff	20
@@ -20308,8 +20309,8 @@ u	copu	10
 天宫	gdpk	10
 天灾	gdpo	10
 一面之交	gdpu	10
-天窗	gdpw	20
-天空	gdpw	10
+天窗	gdpw	10
+天空	gdpw	20
 一面之缘	gdpx	10
 一面之词	gdpy	10
 青面獠牙	gdqa	10
@@ -20564,9 +20565,9 @@ u	copu	10
 五脏六腑	geue	10
 青壮	geuf	10
 不孕症	geug	10
-表彰	geuj	30
+静音	geuj	30
 表单	geuj	20
-静音	geuj	10
+表彰	geuj	10
 表决	geun	10
 表奖	geuq	10
 表亲	geus	10
@@ -24273,8 +24274,8 @@ GoPro	gpr	10
 素问	gxuk	10
 毒瘤	gxuq	20
 素净	gxuq	10
-互道	gxut	20
-素颜	gxut	10
+素颜	gxut	20
+互道	gxut	10
 素妆	gxuv	10
 互递	gxux	10
 素女	gxvv	10
@@ -26276,7 +26277,7 @@ HDR	hdr	10
 鴜	hxwo	10
 此人	hxww	10
 雌	hxwy	10
- 占比	hxx	20
+占比	hkxx	20
 紫	hxx	10
 紫红	hxxa	10
 紫	hxxi	10
@@ -28702,7 +28703,6 @@ IMAX	imax	10
 滑下	imgh	10
 游山玩水	imgi	10
 没理	imgj	10
-没事	imgk	30
 没事	imgk	20
 洞	imgk	10
 油画	imgl	10
@@ -29289,9 +29289,9 @@ iPhone	ipho	10
 嘗	ipkj	10
 営	ipkk	10
 當	ipkl	10
-赏	ipkm	40
-党员	ipkm	30
-演员	ipkm	20
+演员	ipkm	40
+赏	ipkm	30
+党员	ipkm	20
 賞	ipkm	10
 瓽	ipkn	10
 黨	ipko	10
@@ -35394,12 +35394,12 @@ iPod	ipod	10
 中叶	khkf	10
 中号	khkg	20
 呫	khkg	10
-蹉跎	khkh	60
-跳跃	khkh	50
-踊跃	khkh	40
-跟踪	khkh	30
-踀	khkh	20
-蹭蹭	khkh	10
+跳跃	khkh	60
+踊跃	khkh	50
+跟踪	khkh	40
+蹉跎	khkh	30
+蹭蹭	khkh	20
+踀	khkh	10
 路口	khkk	10
 蹪	khkm	10
 遗嘱	khkn	10
@@ -49301,8 +49301,8 @@ MacbookPro	mbp	10
 裤子	pubb	50
 裙子	pubb	40
 袜子	pubb	30
-襵	pubb	20
-被子	pubb	10
+被子	pubb	20
+襵	pubb	10
 实际	pubf	10
 实职	pubk	10
 袦	pubm	10
@@ -49318,7 +49318,6 @@ MacbookPro	mbp	10
 实验	pucw	10
 褦	pucx	10
 衩	pucy	20
-裤杈	pucy	10
 实	pud	10
 袏	puda	10
 袸	pudb	10
@@ -49329,8 +49328,8 @@ MacbookPro	mbp	10
 裖	pude	10
 裸奔	pudf	20
 褥	pudf	10
-袥	pudg	20
-初三	pudg	10
+初三	pudg	20
+袥	pudg	10
 实在	pudh	10
 袹	pudj	30
 袻	pudj	20
@@ -49549,6 +49548,7 @@ MacbookPro	mbp	10
 衴	pupq	10
 衬衫	pupu	30
 被褥	pupu	20
+裤衩	pupu	20
 襁褓	pupu	10
 被窝	pupw	20
 袕	pupw	10
@@ -57353,8 +57353,8 @@ QQ	qq	10
 执法犯法	riqi	10
 挑	riqn	20
 挄	riqn	10
-搅匀	riqu	20
-反光镜	riqu	10
+反光镜	riqu	20
+搅匀	riqu	10
 挑拣	rira	10
 抄报	rirb	10
 搅扰	rird	10
@@ -58865,8 +58865,8 @@ QQ	qq	10
 抵挡	rqri	10
 抵扣	rqrk	10
 抵押	rqrl	10
-抵制	rqrm	40
-抑制	rqrm	30
+抑制	rqrm	40
+抵制	rqrm	30
 掏	rqrm	20
 搖	rqrm	10
 挣扎	rqrn	40
@@ -58935,9 +58935,9 @@ QQ	qq	10
 扻	rqwy	10
 鬼缠	rqxy	10
 的	rqy	10
-拘谨	rqya	30
-摄氏度	rqya	20
-℃	rqya	10
+摄氏度	rqya	30
+℃	rqya	20
+拘谨	rqya	10
 换衣	rqye	10
 挽诗	rqyf	10
 揈	rqyg	10
@@ -59092,8 +59092,8 @@ QQ	qq	10
 哲	rrk	10
 哲	rrkf	20
 啠	rrkf	10
-踅	rrkh	20
-折中	rrkh	10
+折中	rrkh	20
+踅	rrkh	10
 白喝	rrkj	10
 控制器	rrkk	20
 手舞足蹈	rrkk	10
@@ -59379,8 +59379,8 @@ QQ	qq	10
 手术室	rspg	10
 打穿	rspw	10
 打禅	rspy	10
-打昏	rsqa	20
-打错	rsqa	10
+打错	rsqa	20
+打昏	rsqa	10
 打勾	rsqc	10
 打针	rsqf	10
 打印	rsqg	10
@@ -59910,8 +59910,8 @@ QQ	qq	10
 拉响	rukt	10
 投闲置散	rula	10
 皇亲国戚	ruld	10
-搁置	rulf	20
-拉黑	rulf	10
+拉黑	rulf	20
+搁置	rulf	10
 撞车	rulg	10
 拉架	rulk	10
 接连	rulp	10
@@ -81416,8 +81416,8 @@ Windows	wind	10
 侪	wyjh	10
 今日	wyjj	10
 停电	wyjn	10
-停歇	wyjq	20
-今晚	wyjq	10
+今晚	wyjq	20
+停歇	wyjq	10
 俯览	wyjt	10
 依照	wyjv	20
 仿照	wyjv	10
@@ -83560,7 +83560,7 @@ XBox	xbox	10
 弧	xrcy	10
 弧面	xrdm	10
 弧月	xree	10
-缝年过节	xrfa	10
+逢年过节	trfa	10
 缴款	xrff	10
 红白喜事	xrfg	10
 绵远	xrfq	10
