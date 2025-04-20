@@ -16,6 +16,7 @@ patch:
   style:
     color_scheme: red_font   # 白亮模式下启用的皮肤，名字对应下方对皮肤的字义名
     color_scheme_dark: roseo_maple_dark  # 暗黑模式下启用的皮肤
+
   preset_color_schemes:
     weixin:
       name: 微信样式
@@ -35,7 +36,28 @@ patch:
       # %c 是候选序号 %@ 是候选词
       candidate_format: "%c %@ "               # 候选词格式，后面多个空格是为了增加候选词之间的距离
 
-      horizontal: true                         # 是否横向 true 或 false
+      # 旧版 > 1.0 没用了
+      # horizontal: true                         # 是否横向 true 或 false
+      # %c 是候选序号 %@ 是候选词
+      # candidate_format: "%c %@ "               # 候选词格式，后面多个空格是为了增加候选词之间的距离
+
+      # v1.00 之后新增  ------ start  -----
+      # candidate_format: "[label]. [candidate] [comment]"   # 候选词格式， label:序号，candidate：候选词，comment: 词条注释 | "%c %@ "  一般没用不用打开注释
+
+      # 1. 横排列，打开
+      # # 2. 传统竖排列，注释下面两行
+      # text_orientation: horizontal
+      # candidate_list_layout: linear
+
+      # 3. rime 专有竖排列方式（类似古诗文）
+      candidate_list_layout: stacked                        # stacked | linear
+      text_orientation: vertical                            # horizontal | vertical
+
+      # v0.18 新增 ------ start  -----
+      status_message_type: mix # long | short | mix
+      memorize_size: true # 控制选项标是否在接触屏幕边缘时有粘性
+      # ---------------- end v1.00  -------
+
       line_spacing: 5                          # horizontal 为 false 时，上下候选的间隔大小
       base_offset: 0                           # 文字基线调整
 
@@ -71,10 +93,28 @@ patch:
       # label_font_point: 18                    # 字体大小 - 候选序号
       corner_radius: 5                          # 候选框圆角大小
 
+      # 旧版 > 1.0 没用了
+      # horizontal: true                         # 是否横向 true 或 false
       # %c 是候选序号 %@ 是候选词
-      candidate_format: "%c %@ "               # 候选词格式，后面多个空格是为了增加候选词之间的距离
+      # candidate_format: "%c %@ "               # 候选词格式，后面多个空格是为了增加候选词之间的距离
 
-      horizontal: true                         # 是否横向 true 或 false
+      # v1.00 之后新增  ------ start  -----
+      # candidate_format: "[label]. [candidate] [comment]"   # 候选词格式， label:序号，candidate：候选词，comment: 词条注释 | "%c %@ "  一般没用不用打开注释
+
+      # 1. 横排列，打开
+      # # 2. 传统竖排列，注释下面两行
+      # text_orientation: horizontal
+      # candidate_list_layout: linear
+
+      # 3. rime 专有竖排列方式（类似古诗文）
+      candidate_list_layout: stacked                        # stacked | linear
+      text_orientation: vertical                            # horizontal | vertical
+
+      # v0.18 新增 ------ start  -----
+      status_message_type: mix # long | short | mix
+      memorize_size: true # 控制选项标是否在接触屏幕边缘时有粘性
+      # ---------------- end v1.00  -------
+
       line_spacing: 5                          # horizontal 为 false 时，上下候选的间隔大小
       base_offset: 0                           # 文字基线调整
 
