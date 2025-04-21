@@ -107,8 +107,8 @@ patch:
       # candidate_list_layout: linear
 
       # 3. rime 专有竖排列方式（类似古诗文）
-      candidate_list_layout: stacked                        # stacked | linear
-      text_orientation: vertical                            # horizontal | vertical
+      # candidate_list_layout: stacked                        # stacked | linear
+      # text_orientation: vertical                            # horizontal | vertical
 
       # v0.18 新增 ------ start  -----
       status_message_type: mix # long | short | mix
